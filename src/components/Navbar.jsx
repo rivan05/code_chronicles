@@ -52,12 +52,12 @@ const Navbar = () => {
         <a href="https://github.com/rivan05?tab=repositories" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-white hover:text-gray-700 animate-bounce transition-colors" />
         </a>
-        <a href="rishieeevasan@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto: rishieeevasan@gmail.com" target="_blank" rel="noopener noreferrer">
           <HiOutlineMail className="text-white hover:text-red-500  animate-bounce transition-colors" />
         </a>
         <a 
-        href="/Rishi Vasan_V_FSD.pdf" // Path to your PDF
-        download="Rishi.pdf" // Name of the downloaded file
+        href="/Rishi Vasan_V_FSD.pdf" 
+        download="Rishi.pdf" 
         className="flex items-center space-x-2 text-white hover:text-red-500 transition-colors"
       >
         <MdPictureAsPdf className="text-white-800 hover:text-red-500 animate-bounce" />
