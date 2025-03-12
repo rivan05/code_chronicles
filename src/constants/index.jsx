@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate java full stack developer with a knack for crafting robust and scalable web applications. With internships, I've hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hey ! ! I’m a Full Stack Developer with a love for writing code that’s as smooth as butter 🧈. From the front-end wizardry with React js to back-end magic with Node.js , Java , MySQL and MongoDB , I turn ideas into robust, scalable web apps that are fast, functional, and fabulous 💥. When I’m not coding, you’ll find me tackling bugs like a pro and turning challenges into tech masterpieces. Ready to make some code magic happen? Let’s do this! 💻✨`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React,Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React,Node.js,SpringBoot,MySQL,and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -85,7 +85,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Bangalore",
-  phoneNo: "9786314143 ",
+  address: " Bangalore",
+  phoneNo: " 91+ 9786314143 ",
   email: "rishieeevasan.com",
 };

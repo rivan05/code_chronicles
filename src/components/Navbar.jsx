@@ -26,8 +26,10 @@
 
 import React from "react";
 import logo from "../assets/projects/logo.png";
+// import logo from "./lo.png"
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi"; 
+import { MdPictureAsPdf } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -53,6 +55,14 @@ const Navbar = () => {
         <a href="rishieeevasan@gmail.com" target="_blank" rel="noopener noreferrer">
           <HiOutlineMail className="text-white hover:text-red-500  animate-bounce transition-colors" />
         </a>
+        <a 
+        href="/Rishi Vasan_V_FSD.pdf" // Path to your PDF
+        download="Rishi.pdf" // Name of the downloaded file
+        className="flex items-center space-x-2 text-white hover:text-red-500 transition-colors"
+      >
+        <MdPictureAsPdf className="text-white-800 hover:text-red-500 animate-bounce" />
+        
+      </a>
       </div>
     </nav>
   );

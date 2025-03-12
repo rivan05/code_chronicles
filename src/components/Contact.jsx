@@ -19,10 +19,10 @@ const Contact = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1 }}
-          className="my-4"
+          className="my-4 text-gray-300"
         >
           {" "}
-          {CONTACT.address}
+         🌆 {CONTACT.address}
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -30,11 +30,16 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.phoneNo}
+         📞<a href={`tel:${CONTACT.phoneNo}`} className="text-slate-400 hover:underline">
+            {CONTACT.phoneNo}
+          </a>
         </motion.p>
-        <a href="#" className="border-b">
+        📧 <a href={`mailto:${CONTACT.email}`} className=" text-gray-400 hover:underline">
           {CONTACT.email}
         </a>
+        <br></br>
+    
+        
       </div>
     </div>
   );
