@@ -16,7 +16,7 @@
 //   return (
 //     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
 //       <div className="flex flex-wrap">
-        
+
 //         <div className="w-full  lg:w-1/2">
 //           <div className="flex flex-col items-center lg:items-start">
 //             <motion.h1
@@ -57,8 +57,7 @@
 //               transition={{ duration: 1, delay: 1.2 }}
 //               src={profilePic}
 //               alt="Rishi"
-              
-              
+
 //             />
 //           </div>
 //         </div>
@@ -85,10 +84,9 @@ const animationVariants = (delay) => ({
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap justify-center lg:justify-between items-center"> 
-        
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start"> 
-          <div className="flex flex-col items-center lg:items-start px-4 "> 
+      <div className="flex flex-wrap justify-center lg:justify-between items-center">
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+          <div className="flex flex-col items-center lg:items-start px-4 ">
             <motion.h1
               variants={animationVariants(0)}
               initial="hidden"
@@ -104,7 +102,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-rose-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Full  Stack Developer
+              Full Stack Developer
             </motion.span>
 
             <motion.p
@@ -118,16 +116,13 @@ const Hero = () => {
           </div>
         </div>
         <motion.img
-  initial={{ x: 100, opacity: 0 }}
-  animate={{ x: 0, opacity: 1 }}
-  transition={{ duration: 1, delay: 1.2 }}
-  src={profilePic}
-  className="rounded-2xl mr-9 w-140"
-  alt="Rishi"
-
-/>
-
-        
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          src={profilePic}
+          className="rounded-2xl mr-9 w-140"
+          alt="Rishi"
+        />
       </div>
     </div>
   );
