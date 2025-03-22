@@ -67,7 +67,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 text-center text-3xl"
       >
         Projects
       </motion.h1>
@@ -97,10 +97,10 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-3/4"
+              className="w-full lg:w-3/4 px-8"
             >
               <h6 className="mb-2 font-semibold text-xl ">{project.title}</h6>
-              <p className="mb-4 text-neutral-400 text-lg  ">{project.description}</p>
+              <p className="mb-4 text-neutral-400 text-xl ">{project.description}</p>
               {project.technologies.map((text, index) => (
                 <span
                   key={index}
